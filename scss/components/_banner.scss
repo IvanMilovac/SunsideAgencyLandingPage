@@ -1,0 +1,27 @@
+.banner-section {
+  height: 90vh;
+  background-image: url("../../images/mobile/image-header.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  .banner-content {
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-family: var(--font-family-fraunces);
+      font-weight: var(--fw-900);
+      font-size: 2.2rem;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.4rem;
+    }
+  }
+  @include for-tablet-and-up {
+    background-image: url("../../images/desktop/image-header.jpg");
+  }
+}
