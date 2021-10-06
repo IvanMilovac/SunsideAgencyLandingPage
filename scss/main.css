@@ -157,7 +157,7 @@ nav ul::before {
 
 .banner-section {
   height: 90vh;
-  background-image: url("../../images/mobile/image-header.jpg");
+  background-image: url("./../images/mobile/image-header.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: -ms-grid;
@@ -194,7 +194,7 @@ nav ul::before {
 
 @media (min-width: 768px) {
   .banner-section {
-    background-image: url("../../images/desktop/image-header.jpg");
+    background-image: url("./../images/desktop/image-header.jpg");
   }
 }
 
@@ -414,7 +414,7 @@ main .section-four {
   height: 35rem;
   padding: 3rem 1rem;
   gap: 1.5rem;
-  background: url("../../images/mobile/image-graphic-design.jpg");
+  background: url("./../images/mobile/image-graphic-design.jpg");
   background-size: 100% auto;
   font-family: var(--font-family-fraunces);
   color: var(--clr-primary-desaturated-cyan);
@@ -435,7 +435,7 @@ main .section-four p {
 }
 
 main .section-four {
-  background: url("../../images/mobile/image-photography.jpg");
+  background: url("./../images/mobile/image-photography.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: var(--clr-primary-dark-blue);
@@ -448,13 +448,13 @@ main .section-four {
     display: flex;
   }
   main .single-card-section .section-three {
-    background: url("../../images/desktop/image-graphic-design.jpg");
+    background: url("./../images/desktop/image-graphic-design.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 50%;
   }
   main .single-card-section .section-four {
-    background: url("../../images/desktop/image-photography.jpg");
+    background: url("./../images/desktop/image-photography.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 50%;

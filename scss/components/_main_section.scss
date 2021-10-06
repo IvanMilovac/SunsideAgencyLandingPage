@@ -149,7 +149,7 @@ main {
     height: 35rem;
     padding: 3rem 1rem;
     gap: 1.5rem;
-    background: url("../../images/mobile/image-graphic-design.jpg");
+    background: url("./../images/mobile/image-graphic-design.jpg");
     background-size: 100% auto;
     font-family: var(--font-family-fraunces);
     color: var(--clr-primary-desaturated-cyan);
@@ -165,7 +165,7 @@ main {
     }
   }
   .section-four {
-    background: url("../../images/mobile/image-photography.jpg");
+    background: url("./../images/mobile/image-photography.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: var(--clr-primary-dark-blue);
@@ -174,13 +174,13 @@ main {
     .single-card-section {
       display: flex;
       .section-three {
-        background: url("../../images/desktop/image-graphic-design.jpg");
+        background: url("./../images/desktop/image-graphic-design.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 50%;
       }
       .section-four {
-        background: url("../../images/desktop/image-photography.jpg");
+        background: url("./../images/desktop/image-photography.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 50%;

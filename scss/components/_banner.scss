@@ -1,6 +1,6 @@
 .banner-section {
   height: 90vh;
-  background-image: url("../../images/mobile/image-header.jpg");
+  background-image: url("./../images/mobile/image-header.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: grid;
@@ -22,6 +22,6 @@
     }
   }
   @include for-tablet-and-up {
-    background-image: url("../../images/desktop/image-header.jpg");
+    background-image: url("./../images/desktop/image-header.jpg");
   }
 }
